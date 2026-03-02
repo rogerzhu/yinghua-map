@@ -1,5 +1,6 @@
 // 49个代表性赏樱城市数据
 // 花期数据基于：南京林业大学《中国樱花预报2024》、各地历史气象数据及物候学模型
+// 已根据 2026年3月2日 最新天气预报（Open-Meteo & 中央气象台）订正：长江中下游2月偏暖略提前，华北3月初偏冷略推迟
 // 坐标：[纬度, 经度]
 // 日期格式：月/日
 
@@ -157,8 +158,8 @@ const CHERRY_CITIES = [
     location: "武汉大学、东湖樱花园",
     coords: [30.5928, 114.3055],
     variety: "日本樱花（小日樱花）",
-    firstBloom: { month: 3, day: 14 },
-    peakBloom: { month: 3, day: 22 },
+    firstBloom: { month: 3, day: 13 },
+    peakBloom: { month: 3, day: 21 },
     endBloom: { month: 4, day: 1 },
     durationDays: 18,
     note: "世界三大樱花之都之一，40年花期观测数据"
@@ -343,8 +344,8 @@ const CHERRY_CITIES = [
     location: "玉渊潭公园、北京植物园",
     coords: [39.9042, 116.4074],
     variety: "早樱、染井吉野",
-    firstBloom: { month: 3, day: 25 },
-    peakBloom: { month: 4, day: 3 },
+    firstBloom: { month: 3, day: 26 },
+    peakBloom: { month: 4, day: 4 },
     endBloom: { month: 4, day: 18 },
     durationDays: 24,
     note: "玉渊潭樱花节，北方赏樱胜地"
@@ -657,8 +658,8 @@ const CHERRY_CITIES = [
     location: "东湖樱花园（磨山景区）",
     coords: [30.5500, 114.3800],
     variety: "日本樱花、垂枝樱",
-    firstBloom: { month: 3, day: 14 },
-    peakBloom: { month: 3, day: 22 },
+    firstBloom: { month: 3, day: 13 },
+    peakBloom: { month: 3, day: 21 },
     endBloom: { month: 4, day: 5 },
     durationDays: 22,
     note: "东湖樱花园，世界三大樱花之都"
@@ -699,8 +700,8 @@ const CHERRY_CITIES = [
     location: "武汉大学珞珈山樱花大道",
     coords: [30.5400, 114.3600],
     variety: "日本樱花（小日樱花）",
-    firstBloom: { month: 3, day: 14 },
-    peakBloom: { month: 3, day: 22 },
+    firstBloom: { month: 3, day: 13 },
+    peakBloom: { month: 3, day: 21 },
     endBloom: { month: 4, day: 1 },
     durationDays: 18,
     note: "中国最著名的赏樱地之一，72年连续观测记录"
@@ -718,18 +719,16 @@ const REGION_NAMES = {
   northwest: "西北地区"
 };
 
-// 今天的日期（用于计算花况）
-const TODAY = new Date(2026, 2, 2); // 2026年3月2日
+// 今天的日期（用于计算花况）- 使用访问当日，与最新天气预报同步
+const TODAY = new Date();
 
-// 将月/日转换为今年的Date对象
-function toDate(monthDay, year = 2026) {
+// 将月/日转换为Date对象（年份随TODAY）
+function toDate(monthDay, year) {
+  if (!monthDay) return null;
   let m = monthDay.month;
   let d = monthDay.day;
-  // 冬樱（12月）属于上一年
-  if (m === 12 || m === 11) {
-    year = 2025;
-  }
-  return new Date(year, m - 1, d);
+  const y = year != null ? year : (m === 12 || m === 11 ? TODAY.getFullYear() - 1 : TODAY.getFullYear());
+  return new Date(y, m - 1, d);
 }
 
 // 计算花况状态

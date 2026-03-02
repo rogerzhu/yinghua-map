@@ -253,7 +253,7 @@ renderMarkers();
 renderTable();
 updateSummary();
 
-// 更新时间显示
-const now = new Date(2026, 2, 2);
+// 更新时间显示（随访问当日更新）
+const now = new Date();
 document.getElementById("update-time").textContent =
   `更新时间：${now.getFullYear()}年${now.getMonth() + 1}月${now.getDate()}日`;
