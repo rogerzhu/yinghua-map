@@ -1,6 +1,6 @@
 // 49个代表性赏樱城市数据
 // 花期数据基于：南京林业大学《中国樱花预报2024》、各地历史气象数据及物候学模型
-// 已根据 2026年3月5日 最新天气预报（Open-Meteo）自动订正：每日 8:00 更新
+// 已根据 2026年3月6日 最新天气预报（Open-Meteo）自动订正：每日 8:00 更新
 // 坐标：[纬度, 经度]
 // 日期格式：月/日
 
@@ -278,11 +278,11 @@ const CHERRY_CITIES = [
     "variety": "日本樱花（小日樱花）",
     "firstBloom": {
       "month": 3,
-      "day": 12
+      "day": 11
     },
     "peakBloom": {
       "month": 3,
-      "day": 20
+      "day": 19
     },
     "endBloom": {
       "month": 4,
@@ -304,11 +304,11 @@ const CHERRY_CITIES = [
     "variety": "染井吉野、山樱花",
     "firstBloom": {
       "month": 3,
-      "day": 11
+      "day": 10
     },
     "peakBloom": {
       "month": 3,
-      "day": 19
+      "day": 18
     },
     "endBloom": {
       "month": 4,
@@ -330,11 +330,11 @@ const CHERRY_CITIES = [
     "variety": "染井吉野",
     "firstBloom": {
       "month": 3,
-      "day": 14
+      "day": 13
     },
     "peakBloom": {
       "month": 3,
-      "day": 22
+      "day": 21
     },
     "endBloom": {
       "month": 4,
@@ -356,11 +356,11 @@ const CHERRY_CITIES = [
     "variety": "染井吉野、垂枝樱",
     "firstBloom": {
       "month": 3,
-      "day": 17
+      "day": 16
     },
     "peakBloom": {
       "month": 3,
-      "day": 25
+      "day": 24
     },
     "endBloom": {
       "month": 4,
@@ -1032,11 +1032,11 @@ const CHERRY_CITIES = [
     "variety": "山樱花、染井吉野",
     "firstBloom": {
       "month": 3,
-      "day": 9
+      "day": 8
     },
     "peakBloom": {
       "month": 3,
-      "day": 17
+      "day": 16
     },
     "endBloom": {
       "month": 3,
@@ -1058,11 +1058,11 @@ const CHERRY_CITIES = [
     "variety": "染井吉野",
     "firstBloom": {
       "month": 3,
-      "day": 11
+      "day": 10
     },
     "peakBloom": {
       "month": 3,
-      "day": 19
+      "day": 18
     },
     "endBloom": {
       "month": 4,
@@ -1188,11 +1188,11 @@ const CHERRY_CITIES = [
     "variety": "日本樱花、垂枝樱",
     "firstBloom": {
       "month": 3,
-      "day": 12
+      "day": 11
     },
     "peakBloom": {
       "month": 3,
-      "day": 20
+      "day": 19
     },
     "endBloom": {
       "month": 4,
@@ -1266,11 +1266,11 @@ const CHERRY_CITIES = [
     "variety": "日本樱花（小日樱花）",
     "firstBloom": {
       "month": 3,
-      "day": 12
+      "day": 11
     },
     "peakBloom": {
       "month": 3,
-      "day": 20
+      "day": 19
     },
     "endBloom": {
       "month": 4,
