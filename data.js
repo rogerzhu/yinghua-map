@@ -1,6 +1,6 @@
 // 49个代表性赏樱城市数据
 // 花期数据基于：南京林业大学《中国樱花预报2024》、各地历史气象数据及物候学模型
-// 已根据 2026年4月14日 最新天气预报（Open-Meteo）自动订正：每日 8:00 更新
+// 已根据 2026年4月15日 最新天气预报（Open-Meteo）自动订正：每日 8:00 更新
 // 坐标：[纬度, 经度]
 // 日期格式：月/日
 
@@ -616,11 +616,11 @@ const CHERRY_CITIES = [
     "variety": "早樱、染井吉野",
     "firstBloom": {
       "month": 3,
-      "day": 19
+      "day": 18
     },
     "peakBloom": {
       "month": 3,
-      "day": 28
+      "day": 27
     },
     "endBloom": {
       "month": 4,
@@ -642,11 +642,11 @@ const CHERRY_CITIES = [
     "variety": "染井吉野、山樱花",
     "firstBloom": {
       "month": 3,
-      "day": 21
+      "day": 20
     },
     "peakBloom": {
       "month": 3,
-      "day": 30
+      "day": 29
     },
     "endBloom": {
       "month": 4,
@@ -668,11 +668,11 @@ const CHERRY_CITIES = [
     "variety": "染井吉野",
     "firstBloom": {
       "month": 3,
-      "day": 21
+      "day": 20
     },
     "peakBloom": {
       "month": 3,
-      "day": 30
+      "day": 29
     },
     "endBloom": {
       "month": 4,
@@ -694,11 +694,11 @@ const CHERRY_CITIES = [
     "variety": "染井吉野、山樱花",
     "firstBloom": {
       "month": 3,
-      "day": 15
+      "day": 14
     },
     "peakBloom": {
       "month": 3,
-      "day": 23
+      "day": 22
     },
     "endBloom": {
       "month": 4,
@@ -720,11 +720,11 @@ const CHERRY_CITIES = [
     "variety": "染井吉野",
     "firstBloom": {
       "month": 3,
-      "day": 18
+      "day": 17
     },
     "peakBloom": {
       "month": 3,
-      "day": 27
+      "day": 26
     },
     "endBloom": {
       "month": 4,
@@ -746,11 +746,11 @@ const CHERRY_CITIES = [
     "variety": "染井吉野、关山樱",
     "firstBloom": {
       "month": 3,
-      "day": 25
+      "day": 24
     },
     "peakBloom": {
       "month": 4,
-      "day": 3
+      "day": 2
     },
     "endBloom": {
       "month": 4,
@@ -772,11 +772,11 @@ const CHERRY_CITIES = [
     "variety": "染井吉野、山樱花",
     "firstBloom": {
       "month": 3,
-      "day": 18
+      "day": 17
     },
     "peakBloom": {
       "month": 3,
-      "day": 27
+      "day": 26
     },
     "endBloom": {
       "month": 4,
@@ -798,11 +798,11 @@ const CHERRY_CITIES = [
     "variety": "山樱花",
     "firstBloom": {
       "month": 3,
-      "day": 29
+      "day": 28
     },
     "peakBloom": {
       "month": 4,
-      "day": 6
+      "day": 5
     },
     "endBloom": {
       "month": 4,
@@ -824,11 +824,11 @@ const CHERRY_CITIES = [
     "variety": "染井吉野、山樱花",
     "firstBloom": {
       "month": 4,
-      "day": 8
+      "day": 7
     },
     "peakBloom": {
       "month": 4,
-      "day": 15
+      "day": 14
     },
     "endBloom": {
       "month": 5,
@@ -850,11 +850,11 @@ const CHERRY_CITIES = [
     "variety": "山樱花",
     "firstBloom": {
       "month": 4,
-      "day": 13
+      "day": 12
     },
     "peakBloom": {
       "month": 4,
-      "day": 21
+      "day": 20
     },
     "endBloom": {
       "month": 5,
@@ -876,11 +876,11 @@ const CHERRY_CITIES = [
     "variety": "山樱花",
     "firstBloom": {
       "month": 4,
-      "day": 21
+      "day": 20
     },
     "peakBloom": {
       "month": 4,
-      "day": 28
+      "day": 27
     },
     "endBloom": {
       "month": 5,
@@ -902,11 +902,11 @@ const CHERRY_CITIES = [
     "variety": "山樱花",
     "firstBloom": {
       "month": 4,
-      "day": 28
+      "day": 27
     },
     "peakBloom": {
       "month": 5,
-      "day": 5
+      "day": 4
     },
     "endBloom": {
       "month": 5,
@@ -928,11 +928,11 @@ const CHERRY_CITIES = [
     "variety": "山樱花",
     "firstBloom": {
       "month": 4,
-      "day": 3
+      "day": 2
     },
     "peakBloom": {
       "month": 4,
-      "day": 11
+      "day": 10
     },
     "endBloom": {
       "month": 5,
@@ -954,11 +954,11 @@ const CHERRY_CITIES = [
     "variety": "山樱花",
     "firstBloom": {
       "month": 4,
-      "day": 13
+      "day": 12
     },
     "peakBloom": {
       "month": 4,
-      "day": 21
+      "day": 20
     },
     "endBloom": {
       "month": 5,
@@ -980,11 +980,11 @@ const CHERRY_CITIES = [
     "variety": "山樱花",
     "firstBloom": {
       "month": 4,
-      "day": 8
+      "day": 7
     },
     "peakBloom": {
       "month": 4,
-      "day": 16
+      "day": 15
     },
     "endBloom": {
       "month": 5,
@@ -1006,11 +1006,11 @@ const CHERRY_CITIES = [
     "variety": "山樱花",
     "firstBloom": {
       "month": 4,
-      "day": 18
+      "day": 17
     },
     "peakBloom": {
       "month": 4,
-      "day": 26
+      "day": 25
     },
     "endBloom": {
       "month": 5,
@@ -1162,11 +1162,11 @@ const CHERRY_CITIES = [
     "variety": "高盆樱桃",
     "firstBloom": {
       "month": 4,
-      "day": 18
+      "day": 17
     },
     "peakBloom": {
       "month": 4,
-      "day": 28
+      "day": 27
     },
     "endBloom": {
       "month": 5,
@@ -1240,11 +1240,11 @@ const CHERRY_CITIES = [
     "variety": "染井吉野、山樱花",
     "firstBloom": {
       "month": 3,
-      "day": 29
+      "day": 28
     },
     "peakBloom": {
       "month": 4,
-      "day": 6
+      "day": 5
     },
     "endBloom": {
       "month": 4,
